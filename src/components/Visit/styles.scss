@@ -1,0 +1,51 @@
+.visit {
+  width: 1848px;
+  display: flex;
+  align-items: center;
+  padding: 0 23px 0 910px;
+  height: 122px;
+  margin-top: 10px;
+  background: #c5e9ff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+  &-block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    width: 188px;
+    height: 45px;
+    margin: 0 12px 24px 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  &__title {
+    margin: 24px 0 8px 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+  }
+
+  &__select {
+    width: 188px;
+    height: 45px;
+    margin: 0 12px 24px 0;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  &__button {
+    width: 131px;
+    height: 45px;
+    margin-top: 28px;
+    margin-left: 12px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+}

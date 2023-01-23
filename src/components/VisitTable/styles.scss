@@ -1,0 +1,41 @@
+.table {
+  margin-top: 24px;
+  width: 957px;
+  border-collapse: collapse;
+
+  &-header {
+    width: 941px;
+    height: 60px;
+    background: #c4c4c4;
+
+    &__name {
+      padding: 24px 0 15px 0;
+      width: 70px;
+    }
+  }
+
+  &-body {
+    width: 900px;
+    background: #ffffff;
+    border: 1px solid #000000;
+
+    &-visit__row {
+      padding: 24px 22px 35px 22px;
+      border-right: 1px solid #000000;
+      font-size: 18px;
+      color: #000000;
+    }
+
+    &-element__basket {
+      margin: 0 26px 0 27px;
+      border: white;
+      background: white;
+    }
+
+    &-element__pencil {
+      margin-right: 20px;
+      border: white;
+      background: white;
+    }
+  }
+}

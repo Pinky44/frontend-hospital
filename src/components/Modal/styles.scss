@@ -1,0 +1,68 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+
+  &__content {
+    background-color: white;
+    width: 642px;
+    transform: scale(0, 5);
+    transition: 0.4s all;
+  }
+
+  .content-header {
+    padding: 24px 349px 24px 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .content-body {
+    margin: 30px 35px 35px 44px;
+    width: 563px;
+    height: auto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .content-footer {
+    width: 642px;
+    height: 89px;
+    background: #ffffff;
+    box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    &__button {
+      width: 146px;
+      height: 40px;
+      margin: 25px 0 24px 314px;
+      background: #ffffff;
+      border: 2px solid rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+    }
+
+    &__button-delete {
+      width: 146px;
+      height: 40px;
+      margin: 25px 24px 24px 12px;
+      background: rgba(197, 233, 255, 0.72);
+      border: 2px solid rgba(197, 233, 255, 0.72);
+      border-radius: 4px;
+    }
+  }
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal__content.active {
+  transform: scale(1);
+}
