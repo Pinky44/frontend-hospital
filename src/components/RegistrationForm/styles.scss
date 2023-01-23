@@ -1,0 +1,78 @@
+.registration {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+
+  &__img {
+    height: 375px;
+    width: 375px;
+    padding: 83px 51px 132px 106px;
+  }
+
+  &-block {
+    margin-top: 41px;
+    width: 400px;
+    height: 453px;
+    background-color: #ffffff;
+
+    &__text {
+      display: flex;
+      flex-direction: column;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 42px;
+      align-items: center;
+      padding: 40px 125px 40px 63px;
+    }
+
+    &__login {
+      padding: 0 303px 0 42px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+    }
+
+    &__input {
+      width: 321px;
+      margin: 8px 37px 8px 42px;
+      height: 40px;
+      box-sizing: border-box;
+      border-radius: 4px;
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    &__password {
+      padding: 8px 37px 8px 42px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+    }
+
+    &__button {
+      margin: 15px 0 8px 186px;
+      padding: 9px 11px 10px 11px;
+      height: 40px;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 21px;
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    &__link {
+      margin: 8px 37px 24px 242px;
+      width: 173px;
+      height: 21px;
+      font-size: 18px;
+      line-height: 21px;
+      color: #000000;
+    }
+  }
+}
